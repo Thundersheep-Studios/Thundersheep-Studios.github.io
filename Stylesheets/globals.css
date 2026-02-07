@@ -1,0 +1,39 @@
+:root {
+    --style-newspaper-background-image: url(../Resources/Images/Newspaper.jpg);
+    --style-newspaper-background-size: 50%;
+    --style-newspaper-background-repeat: repeat;
+    --style-newspaper-background-position: center;
+}
+
+
+
+/* #region Text Inversion */
+.invert {
+    /* Background Properties */
+    background-image: var(--style-newspaper-background-image);
+    background-repeat: var(--style-newspaper-background-repeat);
+    background-size: var(--style-newspaper-background-size);
+    background-position: var(--style-newspaper-background-position);
+    background-clip: text;
+
+    /* Used for absolute positioning of ::before psudo-element */
+    position: relative;
+
+    color: transparent;    
+}
+
+.invert::before {
+    /* Required to make the element visible */
+    content: "";
+
+    /* Display Properties */
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* #endregion */

@@ -1,0 +1,25 @@
+:root {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    width: 400px;
+    margin: 0 auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: var(--style-newspaper-background-image);
+    background-repeat: var(--style-newspaper-background-repeat);
+    background-size: var(--style-newspaper-background-size);
+    background-position: var(--style-newspaper-background-position);
+
+    size: 100% 100%;
+}
