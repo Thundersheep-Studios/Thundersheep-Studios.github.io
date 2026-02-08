@@ -1,0 +1,19 @@
+
+
+form {
+    text-align: left;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+fieldset {
+    border-style: dashed;
+    border-color: black;
+    border-width: 3px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+
+legend {
+    text-align: center;
+}

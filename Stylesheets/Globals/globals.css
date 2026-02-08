@@ -1,5 +1,5 @@
 :root {
-    --style-newspaper-background-image: url(../Resources/Images/Newspaper.jpg);
+    --style-newspaper-background-image: url(../../Resources/Images/Newspaper.jpg);
     --style-newspaper-background-size: 50%;
     --style-newspaper-background-repeat: repeat;
     --style-newspaper-background-position: center;
